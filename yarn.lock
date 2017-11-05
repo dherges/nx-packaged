@@ -195,15 +195,15 @@
     source-map "^0.5.6"
     tree-kill "^1.0.0"
 
-"@nrwl/nx@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.1.0.tgz#8336f2bfe0a67abfdee0a4dcafdb03cfe8132281"
+"@nrwl/nx@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.1.1.tgz#8a76a01debd6e7d96671a5a62373420edda7920d"
   dependencies:
     jasmine-marbles "0.1.0"
 
-"@nrwl/schematics@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.1.0.tgz#08fa93c580a37067b20441770e5273f6d1a4d5d5"
+"@nrwl/schematics@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.1.1.tgz#71f6d6469d1cc172a5feffba79f05eeb5f333257"
 
 "@schematics/angular@~0.1.0":
   version "0.1.0"
@@ -1068,9 +1068,9 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codelyzer@~3.1.1:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-3.1.2.tgz#9ff1f041fb9b5ee5dbeb45ba866dfaf04983af04"
+codelyzer@~4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-4.0.1.tgz#0bb4cf52a325b257790f4980bb3c63833db10789"
   dependencies:
     app-root-path "^2.0.1"
     css-selector-tokenizer "^0.7.0"
@@ -3238,10 +3238,6 @@ istanbul-reports@^1.1.3:
   dependencies:
     handlebars "^4.0.3"
 
-jasmine-core@~2.6.2:
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.6.4.tgz#dec926cd0a9fa287fb6db5c755fa487e74cecac5"
-
 jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
@@ -3252,9 +3248,9 @@ jasmine-marbles@0.1.0:
   dependencies:
     lodash.isequal "^4.5.0"
 
-jasmine-spec-reporter@~4.1.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/jasmine-spec-reporter/-/jasmine-spec-reporter-4.1.1.tgz#5a6d58ab5d61bea7309fbc279239511756b1b588"
+jasmine-spec-reporter@~4.2.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/jasmine-spec-reporter/-/jasmine-spec-reporter-4.2.1.tgz#1d632aec0341670ad324f92ba84b4b32b35e9e22"
   dependencies:
     colors "1.1.2"
 
@@ -6030,24 +6026,9 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-ts-node@^3.0.4:
+ts-node@^3.0.4, ts-node@~3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.3.0.tgz#c13c6a3024e30be1180dd53038fc209289d4bf69"
-  dependencies:
-    arrify "^1.0.0"
-    chalk "^2.0.0"
-    diff "^3.1.0"
-    make-error "^1.1.1"
-    minimist "^1.2.0"
-    mkdirp "^0.5.1"
-    source-map-support "^0.4.0"
-    tsconfig "^6.0.0"
-    v8flags "^3.0.0"
-    yn "^2.0.0"
-
-ts-node@~3.2.0:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.2.2.tgz#bbd28e38af4aaa3e96076c466e1b220197c1a3ce"
   dependencies:
     arrify "^1.0.0"
     chalk "^2.0.0"
