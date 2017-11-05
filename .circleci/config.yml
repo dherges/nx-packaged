@@ -40,6 +40,14 @@ jobs:
       # run e2e tests!
       # - run: xvfb-run -a yarn ci:e2e
 
+      # ci artefacts on circle
+      - store_artifacts:
+          path: ~/repo/@nx-packaged
+          destination: libs/@nx-packaged
+      - store_artifacts:
+          path: ~/repo/dist/apps
+          destination: apps/@nx-packaged
+
       # run deployments for git tags
       - deploy:
           name: Deploy Tag to npm registry
