@@ -201,9 +201,9 @@
   dependencies:
     jasmine-marbles "0.1.0"
 
-"@nrwl/schematics@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.1.0.tgz#08fa93c580a37067b20441770e5273f6d1a4d5d5"
+"@nrwl/schematics@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.1.1.tgz#71f6d6469d1cc172a5feffba79f05eeb5f333257"
 
 "@schematics/angular@~0.1.0":
   version "0.1.0"
