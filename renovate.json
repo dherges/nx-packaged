@@ -5,12 +5,18 @@
   "commitMessage": "{{semanticPrefix}}update {{depName}} to version {{newVersion}}",
   "packageFiles": [
     "package.json",
-    "my-lib/package.json"
+    "libs/one-lib/package.json",
+    "libs/two-lib/package.json"
   ],
   "packages": [
     {
       "packagePattern": "^@angular\/.*",
       "groupName": "angular",
+      "pinVersions": false
+    },
+    {
+      "packagePattern": "^@nrwl\/.*",
+      "groupName": "nrwl",
       "pinVersions": false
     },
     {
