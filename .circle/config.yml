@@ -1,0 +1,57 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      # - image: circleci/node:latest
+      - image: angular/ngcontainer:latest
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # build the libraries
+      - run: yarn build:libs
+      # build the demo apps (from library packages)
+      - run: ng build --app one-app-from-packages --prod
+
+      # run unit tests!
+      # - run: xvfb-run -a yarn ci:test
+
+      # run e2e tests!
+      # - run: xvfb-run -a yarn ci:e2e
+
+      # run deployments for git tags
+      - deploy:
+          name: Deploy Tag to npm registry
+          command: |
+            if [ "${CIRCLE_TAG}" ]; then
+              npm pack .
+              npm publish .
+            fi
+# trigger builds for git tags
+# https://discuss.circleci.com/t/git-tag-deploys-in-2-0/9493/8
+deployment:
+  trigger_tag:
+    tag: /.*/
+    commands:
+      - echo "make tags run in 2.0"
