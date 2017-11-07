@@ -171,9 +171,9 @@
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-4.1.0.tgz#ac77969c38c406cc6f0d1537e7e78502ace03b9a"
 
-"@ngrx/store-devtools@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-4.0.0.tgz#b79c24773217df7fd9735ad21f9cbf2533c96e04"
+"@ngrx/store-devtools@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-4.1.1.tgz#20745c39c7560fdc05fa4f22638442a7ec7dd676"
 
 "@ngrx/store@^4.1.0":
   version "4.1.0"
