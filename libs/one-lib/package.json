@@ -6,6 +6,6 @@
     "lib": {
       "entryFile": "index.ts"
     },
-    "dest": "@nx-packaged/one-lib"
+    "dest": "../../@nx-packaged/one-lib"
   }
 }
