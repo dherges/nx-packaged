@@ -7,21 +7,24 @@ jobs:
   build:
     docker:
       - image: angular/ngcontainer:latest
-    working_directory: ~/repo
+    working_directory: /home/circleci/repo
     steps:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+          - v1-dependencies-{{ checksum "yarn.lock" }}
 
-      - run: node --version && yarn --version && git --version
+      - run:
+          name: Version Info
+          command: |
+            node --version \
+              && yarn --version \
+              && git --version
       - run: yarn install
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
 
       # build the libraries
       - run: yarn build:libs
@@ -35,8 +38,8 @@ jobs:
 
       # ci artefacts on circle
       - store_artifacts:
-          path: ~/repo/@nx-packaged
+          path: /home/circleci//repo/@nx-packaged
           destination: libs/@nx-packaged
       - store_artifacts:
-          path: ~/repo/dist/apps
+          path: /home/circleci//repo/dist/apps
           destination: apps/@nx-packaged
