@@ -190,15 +190,18 @@
     source-map "^0.5.6"
     tree-kill "^1.0.0"
 
-"@nrwl/nx@0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.5.2.tgz#bd21a64c459a2ab3089763185a0dceb7a8c1871a"
+"@nrwl/nx@0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.5.4.tgz#2418ad4a17b2f536dca85794be45f436dc58a474"
   dependencies:
     jasmine-marbles "0.1.0"
 
-"@nrwl/schematics@0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.5.2.tgz#6bff8e34b06c8ea7f3873e5ffd810951cd3fc7c4"
+"@nrwl/schematics@0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.5.4.tgz#f12c426719ac260a1a37b22eead6c46c9fe6d2d6"
+  dependencies:
+    semver "5.4.1"
+    tmp "0.0.33"
 
 "@schematics/angular@~0.1.0":
   version "0.1.10"
@@ -268,11 +271,11 @@
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
-"@types/v8flags@github:types/npm-v8flags#de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d":
+"@types/v8flags@types/npm-v8flags#de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d":
   version "2.0.0"
   resolved "https://codeload.github.com/types/npm-v8flags/tar.gz/de224ae1cd5fd7dbb4e7158a6cc7a29e5315930d"
 
-"@types/yn@github:types/npm-yn#ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9":
+"@types/yn@types/npm-yn#ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9":
   version "2.0.0"
   resolved "https://codeload.github.com/types/npm-yn/tar.gz/ca75f6c82940fae6a06fb41d2d37a6aa9b4ea8e9"
 
@@ -5281,7 +5284,7 @@ semver-dsl@^1.0.1:
   dependencies:
     semver "^5.3.0"
 
-"semver@2 || 3 || 4 || 5", semver@^5.1.0, semver@^5.3.0:
+"semver@2 || 3 || 4 || 5", semver@5.4.1, semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
@@ -5849,7 +5852,7 @@ tmp@0.0.31:
   dependencies:
     os-tmpdir "~1.0.1"
 
-tmp@0.0.x:
+tmp@0.0.33, tmp@0.0.x:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
   dependencies:
