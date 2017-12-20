@@ -190,15 +190,15 @@
     source-map "^0.5.6"
     tree-kill "^1.0.0"
 
-"@nrwl/nx@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.5.4.tgz#2418ad4a17b2f536dca85794be45f436dc58a474"
+"@nrwl/nx@0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.5.7.tgz#ff7ff7649df3cb7a9789f63e75aaccc81e8be9bf"
   dependencies:
     jasmine-marbles "0.1.0"
 
-"@nrwl/schematics@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.5.4.tgz#f12c426719ac260a1a37b22eead6c46c9fe6d2d6"
+"@nrwl/schematics@0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.5.7.tgz#2a4868d7d2615c48f51f853fefd54081210ad6e7"
   dependencies:
     semver "5.4.1"
     tmp "0.0.33"
