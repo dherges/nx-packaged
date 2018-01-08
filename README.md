@@ -42,7 +42,7 @@ $ ng generate app one-app
 Now, [let's create one library for reusable business code and a second library for reusable Angular building blocks](https://nrwl.io/nx/guide-nx-workspace#create-a-lib):
 
 ```bash
-$ ng generate lib one-lib
+$ ng generate lib one-lib --nomodule
 $ ng generate lib two-lib --ngmodule
 ```
 
