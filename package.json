@@ -34,7 +34,7 @@
     "@angular/platform-browser-dynamic": "~5.2.0",
     "@angular/router": "~5.2.0",
     "@ngrx/effects": "^4.1.0",
-    "@ngrx/router-store": "^4.1.0",
+    "@ngrx/router-store": "^5.0.0",
     "@ngrx/store": "^4.1.0",
     "@ngrx/store-devtools": "4.1.1",
     "@nrwl/nx": "0.6.19",
