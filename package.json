@@ -37,7 +37,7 @@
     "@ngrx/router-store": "^4.1.0",
     "@ngrx/store": "^4.1.0",
     "@ngrx/store-devtools": "4.1.1",
-    "@nrwl/nx": "0.6.18",
+    "@nrwl/nx": "0.6.19",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
@@ -46,7 +46,7 @@
     "@angular/cli": "nrwl/fix-cli-build",
     "@angular/compiler-cli": "~5.2.0",
     "@angular/language-service": "~5.2.0",
-    "@nrwl/schematics": "0.6.18",
+    "@nrwl/schematics": "0.6.19",
     "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~9.3.0",
