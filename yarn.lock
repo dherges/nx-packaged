@@ -158,9 +158,9 @@
   dependencies:
     tslib "^1.7.1"
 
-"@ngrx/effects@^4.1.0":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-4.1.1.tgz#cb758b8527964b258ea41951f59aa144e3ef9fae"
+"@ngrx/effects@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-5.0.0.tgz#8c815e26dcfdd87e3da03ad90f13b97f5df88b73"
 
 "@ngrx/router-store@^5.0.0":
   version "5.0.0"
