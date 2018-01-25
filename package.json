@@ -36,7 +36,7 @@
     "@ngrx/effects": "^5.0.0",
     "@ngrx/router-store": "^5.0.0",
     "@ngrx/store": "^5.0.0",
-    "@ngrx/store-devtools": "5.0.0",
+    "@ngrx/store-devtools": "5.0.1",
     "@nrwl/nx": "0.6.19",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",

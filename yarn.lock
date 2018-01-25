@@ -166,9 +166,9 @@
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-5.0.0.tgz#035d28a38c0e58a0f34c3b4b7f6b8a3aab4dacb0"
 
-"@ngrx/store-devtools@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-5.0.0.tgz#df30d79f524c2b7c73077c084732d1b7ebefab95"
+"@ngrx/store-devtools@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-5.0.1.tgz#f1bf5c54d4b2a512afd970e8114057b44e0d3c16"
 
 "@ngrx/store@^5.0.0":
   version "5.0.0"
