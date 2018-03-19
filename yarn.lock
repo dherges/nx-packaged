@@ -196,15 +196,15 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.9.0.tgz#5af5421e2a000066f4ce3d4039d1a1bdbd9e5c96"
+"@nrwl/nx@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.9.1.tgz#1b7b0c71254aae7cd32ef53de523b5b1369b5395"
   dependencies:
     jasmine-marbles "0.2.0"
 
-"@nrwl/schematics@0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.9.0.tgz#c292f8cf98039bff23e58075e1bb5cd877c012bf"
+"@nrwl/schematics@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.9.1.tgz#e1cb3836eb92a794de73a627789f0109b685ba13"
   dependencies:
     app-root-path "^2.0.1"
     semver "5.4.1"
