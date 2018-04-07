@@ -200,22 +200,25 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.10.0.tgz#b7c2cb0dc518ae25f1956b3f4f2f338fc911759d"
+"@nrwl/nx@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-0.11.0.tgz#b32a506a1852e64d1b124d3d3ea77310842165de"
   dependencies:
     jasmine-marbles "0.2.0"
 
-"@nrwl/schematics@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.10.0.tgz#33b3f57a6a409955928e4d9640f144e618a76968"
+"@nrwl/schematics@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-0.11.0.tgz#3f4ed38aaedb1d9039419513a50064c56af34ded"
   dependencies:
     "@ngrx/schematics" "5.2.0"
     "@schematics/angular" "0.4.6"
     app-root-path "^2.0.1"
+    graphviz "0.0.8"
     npm-run-all "4.1.2"
+    opn "^5.3.0"
     semver "5.4.1"
     tmp "0.0.33"
+    viz.js "^1.8.1"
     yargs-parser "9.0.2"
 
 "@schematics/angular@0.3.2":
@@ -2994,6 +2997,12 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+graphviz@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/graphviz/-/graphviz-0.0.8.tgz#e599e40733ef80e1653bfe89a5f031ecf2aa4aaa"
+  dependencies:
+    temp "~0.4.0"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
@@ -4961,6 +4970,12 @@ opn@^5.1.0, opn@~5.1.0:
   dependencies:
     is-wsl "^1.1.0"
 
+opn@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.3.0.tgz#64871565c863875f052cfdf53d3e3cb5adb53b1c"
+  dependencies:
+    is-wsl "^1.1.0"
+
 optimist@^0.6.1, optimist@~0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
@@ -6877,6 +6892,10 @@ tar@^4.4.1:
     safe-buffer "^5.1.1"
     yallist "^3.0.2"
 
+temp@~0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/temp/-/temp-0.4.0.tgz#671ad63d57be0fe9d7294664b3fc400636678a60"
+
 term-size@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/term-size/-/term-size-1.2.0.tgz#458b83887f288fc56d6fffbfad262e26638efa69"
@@ -7333,6 +7352,10 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+viz.js@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/viz.js/-/viz.js-1.8.1.tgz#277ab3cf4367c608a95b281a7472083c3e2ee6cf"
 
 vlq@^0.2.1:
   version "0.2.3"
