@@ -27,11 +27,11 @@
     "@ngtools/json-schema" "^1.1.0"
     rxjs "^5.5.6"
 
-"@angular/animations@5.2.9":
-  version "5.2.9"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.9.tgz#220db9fb5a52a193db0023d721b23ddd25a75770"
+"@angular/animations@6.0.0-rc.5":
+  version "6.0.0-rc.5"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.0.0-rc.5.tgz#4103f620f52023c0b26c741158276bdcc9c1a451"
   dependencies:
-    tslib "^1.7.1"
+    tslib "^1.9.0"
 
 "@angular/cli@1.7.4":
   version "1.7.4"
@@ -7051,6 +7051,10 @@ tsickle@^0.27.1, tsickle@^0.27.2:
 tslib@^1.7.1, tslib@^1.8.0:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
+
+tslib@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 
 tslint@~5.9.1:
   version "5.9.1"
