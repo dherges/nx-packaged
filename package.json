@@ -53,7 +53,7 @@
     "@angular/compiler-cli": "5.2.7",
     "@angular/language-service": "5.2.7",
     "@nrwl/schematics": "1.0.0",
-    "@types/jasmine": "~2.5.53",
+    "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~9.6.0",
     "codelyzer": "~4.2.0",
