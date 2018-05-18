@@ -6087,6 +6087,12 @@ rxjs@^5.5.0, rxjs@^5.5.6:
   dependencies:
     symbol-observable "1.0.1"
 
+rxjs@^5.6.0-forward-compat.4:
+  version "5.6.0-forward-compat.4"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.6.0-forward-compat.4.tgz#1d3d8d0ebd7eb894a44891d2582f604a78b0014c"
+  dependencies:
+    symbol-observable "1.0.1"
+
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
