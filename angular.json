@@ -407,5 +407,8 @@
     "@nrwl/schematics:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "packageManager": "yarn"
   }
 }
