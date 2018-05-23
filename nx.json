@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "one-app": {
+      "tags": []
+    },
+    "one-app-e2e": {
+      "tags": []
+    },
+    "one-app-from-packages": {
+      "tags": []
+    },
+    "one-app-from-packages-e2e": {
+      "tags": []
+    },
+    "one-lib": {
+      "tags": []
+    },
+    "two-lib": {
+      "tags": []
+    }
+  }
+}
