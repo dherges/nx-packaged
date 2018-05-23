@@ -45,7 +45,7 @@
     "@ngrx/store-devtools": "5.2.0",
     "@nrwl/nx": "6.0.2",
     "core-js": "^2.4.1",
-    "rxjs": "^5.5.6",
+    "rxjs": "^5.6.0-forward-compat.5",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
