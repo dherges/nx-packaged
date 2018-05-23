@@ -9,24 +9,24 @@
     "test": "ng test",
     "lint": "./node_modules/.bin/nx lint && ng lint",
     "e2e": "ng e2e",
-    "format": "./node_modules/.bin/nx format write",
+    "format": "./node_modules/.bin/nx format:write",
     "build:libs": "yarn libs:one-lib:build && yarn libs:two-lib:build && yarn libs:three-lib:build",
     "build:app": "ng build --app one-app-from-packages --prod",
-    "affected:apps": "./node_modules/.bin/nx affected apps",
-    "affected:build": "./node_modules/.bin/nx affected build",
-    "affected:e2e": "./node_modules/.bin/nx affected e2e",
-    "format:write": "./node_modules/.bin/nx format write",
-    "format:check": "./node_modules/.bin/nx format check",
-    "postinstall": "./node_modules/.bin/nx postinstall",
+    "affected:apps": "./node_modules/.bin/nx affected:apps",
+    "affected:build": "./node_modules/.bin/nx affected:build",
+    "affected:e2e": "./node_modules/.bin/nx affected:e2e",
+    "format:write": "./node_modules/.bin/nx format:write",
+    "format:check": "./node_modules/.bin/nx format:check",
     "libs:one-lib:build": "ng-packagr -p libs/one-lib/package.json ",
     "libs:two-lib:build": "ng-packagr -p libs/two-lib/package.json",
     "libs:three-lib:build": "ts-node libs/three-lib/build.ts",
     "update": "./node_modules/.bin/nx update",
-    "update:check": "./node_modules/.bin/nx update check",
-    "update:skip": "./node_modules/.bin/nx update skip",
+    "update:check": "./node_modules/.bin/nx update:check",
+    "update:skip": "./node_modules/.bin/nx update:skip",
     "dep-graph": "./node_modules/.bin/nx dep-graph",
-    "affected:dep-graph": "./node_modules/.bin/nx affected dep-graph",
-    "workspace-schematic": "./node_modules/.bin/nx workspace-schematic"
+    "affected:dep-graph": "./node_modules/.bin/nx affected:dep-graph",
+    "workspace-schematic": "./node_modules/.bin/nx workspace-schematic",
+    "help": "./node_modules/.bin/nx help"
   },
   "private": true,
   "dependencies": {
@@ -49,7 +49,7 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/cli": "1.7.4",
+    "@angular/cli": "6.0.1",
     "@angular/compiler-cli": "5.2.10",
     "@angular/language-service": "5.2.10",
     "@nrwl/schematics": "6.0.2",
@@ -70,6 +70,7 @@
     "ts-node": "~6.0.0",
     "tsickle": "^0.28.0",
     "tslint": "~5.10.0",
-    "typescript": "2.6.2"
+    "typescript": "2.6.2",
+    "@angular-devkit/build-angular": "~0.6.1"
   }
 }
