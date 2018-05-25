@@ -4,8 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "one-app": {
-      "root": "",
-      "sourceRoot": "src",
+      "root": "apps/one-app/",
+      "sourceRoot": "apps/one-app/src",
       "projectType": "application",
       "architect": {
         "build": {
@@ -94,8 +94,8 @@
       }
     },
     "one-app-e2e": {
-      "root": "",
-      "sourceRoot": "",
+      "root": "apps/one-app/",
+      "sourceRoot": "apps/one-app/src",
       "projectType": "application",
       "architect": {
         "e2e": {
@@ -120,8 +120,8 @@
       }
     },
     "one-app-from-packages": {
-      "root": "",
-      "sourceRoot": "src",
+      "root": "apps/one-app",
+      "sourceRoot": "apps/one-app/src",
       "projectType": "application",
       "architect": {
         "build": {

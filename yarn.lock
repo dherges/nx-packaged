@@ -109,7 +109,7 @@
 
 "@angular/animations@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/animations/-/animations-6.0.0.tgz#cfc825dbfdf33bf3bf75962d1e12495aed5e3c32"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.0.0.tgz#cfc825dbfdf33bf3bf75962d1e12495aed5e3c32"
   dependencies:
     tslib "^1.9.0"
 
@@ -132,13 +132,13 @@
 
 "@angular/common@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/common/-/common-6.0.0.tgz#ca3b6b6b96837fe048861da897c31991aa04954f"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-6.0.0.tgz#ca3b6b6b96837fe048861da897c31991aa04954f"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/compiler-cli@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/compiler-cli/-/compiler-cli-6.0.0.tgz#be50277faaa5ac08f3002c2c8cb8c39d220c76d5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-6.0.0.tgz#be50277faaa5ac08f3002c2c8cb8c39d220c76d5"
   dependencies:
     chokidar "^1.4.2"
     minimist "^1.2.0"
@@ -147,57 +147,57 @@
 
 "@angular/compiler@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/compiler/-/compiler-6.0.0.tgz#9092a0f02f33dd1108276ab93cc48142e36a1e95"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-6.0.0.tgz#9092a0f02f33dd1108276ab93cc48142e36a1e95"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/core@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/core/-/core-6.0.0.tgz#785cc8a37b7fb784a6b7dcbd0984abb4f10e5dfe"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-6.0.0.tgz#785cc8a37b7fb784a6b7dcbd0984abb4f10e5dfe"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/forms@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/forms/-/forms-6.0.0.tgz#436e2df39dc57db124da5a5c02bc63909fdf7046"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.0.0.tgz#436e2df39dc57db124da5a5c02bc63909fdf7046"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/http@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/http/-/http-6.0.0.tgz#f409e35cd2f4990b43a37beab915ffdcd9c7c992"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-6.0.0.tgz#f409e35cd2f4990b43a37beab915ffdcd9c7c992"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/language-service@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/language-service/-/language-service-6.0.0.tgz#85bf577fd7f45eff13128d4f5f0125078d610aec"
+  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0.tgz#85bf577fd7f45eff13128d4f5f0125078d610aec"
 
 "@angular/platform-browser-dynamic@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.0.tgz#66a34b65136446cb3ec39362fd6d2dbb5482ba70"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.0.tgz#66a34b65136446cb3ec39362fd6d2dbb5482ba70"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/platform-browser@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/platform-browser/-/platform-browser-6.0.0.tgz#848b687ea46786483fddcdbbbd17b29c7adcc768"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.0.0.tgz#848b687ea46786483fddcdbbbd17b29c7adcc768"
   dependencies:
     tslib "^1.9.0"
 
 "@angular/router@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@angular/router/-/router-6.0.0.tgz#09a5c6f6220084c3575df81e8b36cbe9fff10d1f"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.0.0.tgz#09a5c6f6220084c3575df81e8b36cbe9fff10d1f"
   dependencies:
     tslib "^1.9.0"
 
 "@ngrx/effects@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@ngrx/effects/-/effects-6.0.0.tgz#da1baa08514179ee07df81f81b297f1c98e0f1ff"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-6.0.0.tgz#da1baa08514179ee07df81f81b297f1c98e0f1ff"
 
 "@ngrx/router-store@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@ngrx/router-store/-/router-store-6.0.0.tgz#f42d3348ed364760100d29fcb77891705be85460"
+  resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-6.0.0.tgz#f42d3348ed364760100d29fcb77891705be85460"
 
 "@ngrx/schematics@5.2.0":
   version "5.2.0"
@@ -205,11 +205,11 @@
 
 "@ngrx/store-devtools@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@ngrx/store-devtools/-/store-devtools-6.0.0.tgz#20abbcb555857479075cb42b5d2258e557830927"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-6.0.0.tgz#20abbcb555857479075cb42b5d2258e557830927"
 
 "@ngrx/store@6.0.0":
   version "6.0.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@ngrx/store/-/store-6.0.0.tgz#fcb9ba6ea6ff4bbc7a3c0dd8adf844042bcfd2be"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-6.0.0.tgz#fcb9ba6ea6ff4bbc7a3c0dd8adf844042bcfd2be"
 
 "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
@@ -269,7 +269,7 @@
 
 "@types/estree@0.0.38":
   version "0.0.38"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@types/estree/-/estree-0.0.38.tgz#c1be40aa933723c608820a99a373a16d215a1ca2"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.38.tgz#c1be40aa933723c608820a99a373a16d215a1ca2"
 
 "@types/jasmine@*":
   version "2.8.2"
@@ -287,7 +287,7 @@
 
 "@types/node@*":
   version "10.1.2"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/@types/node/-/node-10.1.2.tgz#1b928a0baa408fc8ae3ac012cc81375addc147c6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.1.2.tgz#1b928a0baa408fc8ae3ac012cc81375addc147c6"
 
 "@types/node@^6.0.46":
   version "6.0.92"
@@ -790,7 +790,7 @@ atob@^2.0.0:
 
 autoprefixer@^8.0.0, autoprefixer@^8.4.1:
   version "8.5.0"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/autoprefixer/-/autoprefixer-8.5.0.tgz#89a39b1316fbe7bc2b4997a0c7dad0149d99511c"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.5.0.tgz#89a39b1316fbe7bc2b4997a0c7dad0149d99511c"
   dependencies:
     browserslist "^3.2.7"
     caniuse-lite "^1.0.30000839"
@@ -1212,7 +1212,7 @@ browserify@^14.5.0:
 
 browserslist@^3.0.0, browserslist@^3.2.7:
   version "3.2.8"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
   dependencies:
     caniuse-lite "^1.0.30000844"
     electron-to-chromium "^1.3.47"
@@ -2492,7 +2492,7 @@ estree-walker@^0.3.0:
 
 estree-walker@^0.5.1:
   version "0.5.2"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/estree-walker/-/estree-walker-0.5.2.tgz#d3850be7529c9580d815600b53126515e146dd39"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.5.2.tgz#d3850be7529c9580d815600b53126515e146dd39"
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -2911,7 +2911,7 @@ fs-extra@6.0.0:
 
 fs-extra@^6.0.0:
   version "6.0.1"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/fs-extra/-/fs-extra-6.0.1.tgz#8abc128f7946e310135ddc93b98bddb410e7a34b"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-6.0.1.tgz#8abc128f7946e310135ddc93b98bddb410e7a34b"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
@@ -4058,7 +4058,7 @@ jasmine-core@~3.1.0:
 
 jasmine-marbles@^0.3.1:
   version "0.3.1"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/jasmine-marbles/-/jasmine-marbles-0.3.1.tgz#ef65edecb41b8dd62fc6bda40448222042e32043"
+  resolved "https://registry.yarnpkg.com/jasmine-marbles/-/jasmine-marbles-0.3.1.tgz#ef65edecb41b8dd62fc6bda40448222042e32043"
   dependencies:
     lodash "^4.5.0"
 
@@ -4318,7 +4318,7 @@ less-loader@^4.1.0:
 
 less@^3.0.0, less@^3.0.4:
   version "3.0.4"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/less/-/less-3.0.4.tgz#d27dcedbac96031c9e7b76f1da1e4b7d83760814"
+  resolved "https://registry.yarnpkg.com/less/-/less-3.0.4.tgz#d27dcedbac96031c9e7b76f1da1e4b7d83760814"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
@@ -6466,7 +6466,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 
 rollup-plugin-commonjs@^9.1.3:
   version "9.1.3"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/rollup-plugin-commonjs/-/rollup-plugin-commonjs-9.1.3.tgz#37bfbf341292ea14f512438a56df8f9ca3ba4d67"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-9.1.3.tgz#37bfbf341292ea14f512438a56df8f9ca3ba4d67"
   dependencies:
     estree-walker "^0.5.1"
     magic-string "^0.22.4"
@@ -6484,7 +6484,7 @@ rollup-plugin-node-resolve@^3.0.0:
 
 rollup-plugin-sourcemaps@^0.4.2:
   version "0.4.2"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.4.2.tgz#62125aa94087aadf7b83ef4dfaf629b473135e87"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.4.2.tgz#62125aa94087aadf7b83ef4dfaf629b473135e87"
   dependencies:
     rollup-pluginutils "^2.0.1"
     source-map-resolve "^0.5.0"
@@ -6498,7 +6498,7 @@ rollup-pluginutils@^2.0.1:
 
 rollup@^0.58.0:
   version "0.58.2"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/rollup/-/rollup-0.58.2.tgz#2feddea8c0c022f3e74b35c48e3c21b3433803ce"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.58.2.tgz#2feddea8c0c022f3e74b35c48e3c21b3433803ce"
   dependencies:
     "@types/estree" "0.0.38"
     "@types/node" "*"
@@ -7622,7 +7622,7 @@ uglify-es@^3.3.4:
 
 uglify-js@3.3.x, uglify-js@^3.0.7:
   version "3.3.27"
-  resolved "https://trr-orbis-maven.dev.agfahealthcare.com/nexus/repository/npm-all/uglify-js/-/uglify-js-3.3.27.tgz#eb8c3c9429969f86ff5b0a2422ffc78c3cea8cc0"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.27.tgz#eb8c3c9429969f86ff5b0a2422ffc78c3cea8cc0"
   dependencies:
     commander "~2.15.0"
     source-map "~0.6.1"
