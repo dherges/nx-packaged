@@ -56,7 +56,7 @@
     "@nrwl/schematics": "6.0.2",
     "@types/jasmine": "~2.8.0",
     "@types/jasminewd2": "~2.0.2",
-    "@types/node": "~9.6.0",
+    "@types/node": "~10.1.0",
     "codelyzer": "~4.3.0",
     "jasmine-core": "~3.1.0",
     "jasmine-marbles": "^0.3.1",
