@@ -82,15 +82,6 @@
     typescript "~2.7.2"
     webpack-sources "^1.1.0"
 
-"@angular-devkit/core@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.6.1.tgz#2582871707a19fe3a4b83d9afdffd5422d1debc7"
-  dependencies:
-    ajv "~6.4.0"
-    chokidar "^2.0.3"
-    rxjs "^6.0.0"
-    source-map "^0.5.6"
-
 "@angular-devkit/core@0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.6.3.tgz#862fff08c081c1d82feb8fef671688a735625c79"
@@ -108,13 +99,6 @@
     chokidar "^2.0.3"
     rxjs "^6.0.0"
     source-map "^0.5.6"
-
-"@angular-devkit/schematics@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.6.1.tgz#8e94fbd45e24596f1f0a086a70dde88dbc6cf96e"
-  dependencies:
-    "@angular-devkit/core" "0.6.1"
-    rxjs "^6.0.0"
 
 "@angular-devkit/schematics@0.6.5":
   version "0.6.5"
@@ -239,20 +223,18 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-6.0.2.tgz#c1f85560d9733af068c86d41ade5f8d8c9db5b27"
+"@nrwl/nx@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-6.1.1.tgz#0b7436d814bb6cf66c2edd0874c559b8fbf9b48a"
 
-"@nrwl/schematics@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-6.0.2.tgz#131662c000891fbb1b632904a91c340a9569e63b"
+"@nrwl/schematics@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-6.1.1.tgz#4dfc1140104a3b4d2c72be18624e1b80daf89884"
   dependencies:
-    "@angular-devkit/schematics" "0.6.1"
     "@ngrx/schematics" "5.2.0"
-    "@schematics/angular" "0.6.1"
     "@types/yargs" "^11.0.0"
     app-root-path "^2.0.1"
-    cosmiconfig "5.0.2"
+    cosmiconfig "4.0.0"
     fs-extra "6.0.0"
     graphviz "0.0.8"
     npm-run-all "4.1.2"
@@ -263,14 +245,6 @@
     viz.js "^1.8.1"
     yargs "^11.0.0"
     yargs-parser "10.0.0"
-
-"@schematics/angular@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.6.1.tgz#912495d248b95fcd20a04609e48cf2a4516b2071"
-  dependencies:
-    "@angular-devkit/core" "0.6.1"
-    "@angular-devkit/schematics" "0.6.1"
-    typescript ">=2.6.2 <2.8"
 
 "@schematics/angular@0.6.5":
   version "0.6.5"
@@ -1794,13 +1768,14 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cosmiconfig@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.2.tgz#03f8965ae4675317a0015b4a5a48a470d9baeada"
+cosmiconfig@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-4.0.0.tgz#760391549580bbd2df1e562bc177b13c290972dc"
   dependencies:
     is-directory "^0.3.1"
     js-yaml "^3.9.0"
     parse-json "^4.0.0"
+    require-from-string "^2.0.1"
 
 cosmiconfig@^2.1.0, cosmiconfig@^2.1.1:
   version "2.2.2"
@@ -6434,6 +6409,10 @@ require-directory@^2.1.1:
 require-from-string@^1.1.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-1.2.1.tgz#529c9ccef27380adfec9a2f965b649bbee636418"
+
+require-from-string@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
 
 require-main-filename@^1.0.1:
   version "1.0.1"
