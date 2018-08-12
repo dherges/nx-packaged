@@ -202,10 +202,6 @@
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-6.0.1.tgz#1c5c77b138eaed030b58f4203bf921e88cc51112"
 
-"@ngrx/schematics@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@ngrx/schematics/-/schematics-5.2.0.tgz#ab7180d79f0ec68bd4ac3ef4ec83b9348d18d26c"
-
 "@ngrx/store-devtools@6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-6.0.1.tgz#6049208d1ef8dc5f1f96ffc63373eab2d72f957c"
@@ -227,15 +223,14 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-6.1.1.tgz#0b7436d814bb6cf66c2edd0874c559b8fbf9b48a"
+"@nrwl/nx@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-6.2.0.tgz#7737846a5d03bc25e0d9cd418e9bde11697c85ad"
 
-"@nrwl/schematics@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-6.1.1.tgz#4dfc1140104a3b4d2c72be18624e1b80daf89884"
+"@nrwl/schematics@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-6.2.0.tgz#bb84ebda6846cf2e8b431086bf232fc785d8ccdb"
   dependencies:
-    "@ngrx/schematics" "5.2.0"
     "@types/yargs" "^11.0.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
