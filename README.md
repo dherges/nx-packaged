@@ -8,7 +8,7 @@ Build distribution-ready binaries in Angular Package Format.
 [![Packaging Angular Libraries](./docs/build-with-ng-packagr.gif)](http://recordit.co/Jw0inbop7f)
 
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
-[![CircleCI](https://img.shields.io/circleci/project/github/dherges/nx-packaged/master.svg?style=flat-square&label=Circle%20CI)](https://circleci.com/gh/dherges/nx-packaged)
+[![CircleCI](https://img.shields.io/circleci/project/github/ng-packagr/nx-packaged/master.svg?style=flat-square&label=Circle%20CI)](https://circleci.com/gh/ng-packagr/nx-packaged)
 
 
 ## Transcript
