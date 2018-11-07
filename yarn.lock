@@ -211,9 +211,9 @@
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
 
-"@nrwl/nx@6.4.0-beta.1":
-  version "6.4.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-6.4.0-beta.1.tgz#a1e3aefa242b4b628d4a5fe4192eca41d13d7770"
+"@nrwl/nx@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.0.1.tgz#d679e3488aa352fa494678edf3774cb3e7bf13f3"
 
 "@nrwl/schematics@6.4.0-beta.1":
   version "6.4.0-beta.1"
@@ -6169,6 +6169,12 @@ rxjs@^6.0.0:
 rxjs@^6.1.0:
   version "6.3.2"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.2.tgz#6a688b16c4e6e980e62ea805ec30648e1c60907f"
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@^6.3.3:
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.3.tgz#3c6a7fa420e844a81390fb1158a9ec614f4bad55"
   dependencies:
     tslib "^1.9.0"
 
