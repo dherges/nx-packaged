@@ -9,6 +9,13 @@
     "@angular-devkit/core" "7.1.0-beta.0"
     rxjs "6.3.3"
 
+"@angular-devkit/architect@0.11.0-beta.1":
+  version "0.11.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.11.0-beta.1.tgz#9244986b68073644b869fe004bc4b29c643d0344"
+  dependencies:
+    "@angular-devkit/core" "7.1.0-beta.1"
+    rxjs "6.3.3"
+
 "@angular-devkit/build-angular@~0.11.0-beta":
   version "0.11.0-beta.0"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.11.0-beta.0.tgz#913b85ad82407f985f99e4d8e83cf514ff59d140"
@@ -89,11 +96,21 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@7.1.0-beta.0":
-  version "7.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.0-beta.0.tgz#4e28ccadac3eba38fcaa04c90e9e5457818bbc78"
+"@angular-devkit/core@7.1.0-beta.1":
+  version "7.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.1.0-beta.1.tgz#fbdab93b58ffc51dfc0b67eefb1415a6d2617144"
   dependencies:
-    "@angular-devkit/core" "7.1.0-beta.0"
+    ajv "6.5.3"
+    chokidar "2.0.4"
+    fast-json-stable-stringify "2.0.0"
+    rxjs "6.3.3"
+    source-map "0.7.3"
+
+"@angular-devkit/schematics@7.1.0-beta.1":
+  version "7.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.0-beta.1.tgz#7e7a9b55169bdf66b19842902d3c79a22451f939"
+  dependencies:
+    "@angular-devkit/core" "7.1.0-beta.1"
     rxjs "6.3.3"
 
 "@angular/animations@7.1.0-beta.2":
@@ -102,15 +119,15 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cli@7.1.0-beta.0":
-  version "7.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-7.1.0-beta.0.tgz#8c9bedef01622d713c3a03bd24a6fc32f5836e24"
+"@angular/cli@7.1.0-beta.1":
+  version "7.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-7.1.0-beta.1.tgz#154858491fca63f0a45cdcd85b4438e953f4b850"
   dependencies:
-    "@angular-devkit/architect" "0.11.0-beta.0"
-    "@angular-devkit/core" "7.1.0-beta.0"
-    "@angular-devkit/schematics" "7.1.0-beta.0"
-    "@schematics/angular" "7.1.0-beta.0"
-    "@schematics/update" "0.11.0-beta.0"
+    "@angular-devkit/architect" "0.11.0-beta.1"
+    "@angular-devkit/core" "7.1.0-beta.1"
+    "@angular-devkit/schematics" "7.1.0-beta.1"
+    "@schematics/angular" "7.1.0-beta.1"
+    "@schematics/update" "0.11.0-beta.1"
     inquirer "6.2.0"
     opn "5.3.0"
     semver "5.5.1"
@@ -235,20 +252,20 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@schematics/angular@7.1.0-beta.0":
-  version "7.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.1.0-beta.0.tgz#74f2024c419719d4ee45fe953292f3748ffd018f"
+"@schematics/angular@7.1.0-beta.1":
+  version "7.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.1.0-beta.1.tgz#da11515628e2f5951253a0f31747140f739cab8e"
   dependencies:
-    "@angular-devkit/core" "7.1.0-beta.0"
-    "@angular-devkit/schematics" "7.1.0-beta.0"
-    typescript "3.1.5"
+    "@angular-devkit/core" "7.1.0-beta.1"
+    "@angular-devkit/schematics" "7.1.0-beta.1"
+    typescript "3.1.6"
 
-"@schematics/update@0.11.0-beta.0":
-  version "0.11.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.11.0-beta.0.tgz#f6ff03e2e57c07298ce6a21833a24a6cc4edafbf"
+"@schematics/update@0.11.0-beta.1":
+  version "0.11.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.11.0-beta.1.tgz#139d9acc2a1dc2fa4633560c58dd171a3205ecc6"
   dependencies:
-    "@angular-devkit/core" "7.1.0-beta.0"
-    "@angular-devkit/schematics" "7.1.0-beta.0"
+    "@angular-devkit/core" "7.1.0-beta.1"
+    "@angular-devkit/schematics" "7.1.0-beta.1"
     pacote "9.1.1"
     rxjs "6.3.3"
     semver "5.5.1"
@@ -7337,7 +7354,7 @@ typescript@3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.5.tgz#93d8b6864375325a91177372cb370ae0ae3a0703"
 
-typescript@~3.1.6:
+typescript@3.1.6, typescript@~3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
 
