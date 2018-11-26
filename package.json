@@ -43,7 +43,7 @@
     "@ngrx/router-store": "7.0.0-beta.0",
     "@ngrx/store": "7.0.0-beta.0",
     "@ngrx/store-devtools": "7.0.0-beta.0",
-    "@nrwl/nx": "7.0.2",
+    "@nrwl/nx": "7.1.1",
     "core-js": "^3.0.0-beta",
     "rxjs": "^6.3.3",
     "zone.js": "^0.8.19"
@@ -53,7 +53,7 @@
     "@angular/cli": "7.1.0-beta.1",
     "@angular/compiler-cli": "7.1.0-beta.2",
     "@angular/language-service": "7.1.0-beta.2",
-    "@nrwl/schematics": "7.0.2",
+    "@nrwl/schematics": "7.1.1",
     "@types/jasmine": "~3.0.0",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~10.12.0",
