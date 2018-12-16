@@ -9,11 +9,11 @@
     "@angular-devkit/core" "7.2.0-beta.0"
     rxjs "6.3.3"
 
-"@angular-devkit/architect@0.12.0-beta.1":
-  version "0.12.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.12.0-beta.1.tgz#d99224160fa6be23ff6c1c3ad80baa42013a0cf7"
+"@angular-devkit/architect@0.12.0-beta.2":
+  version "0.12.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.12.0-beta.2.tgz#8fa8e0c7173b49fa06a844de78bf03a7e23ab5fe"
   dependencies:
-    "@angular-devkit/core" "7.2.0-beta.1"
+    "@angular-devkit/core" "7.2.0-beta.2"
     rxjs "6.3.3"
 
 "@angular-devkit/build-angular@~0.12.0-beta":
@@ -96,9 +96,9 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/core@7.2.0-beta.1":
-  version "7.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.2.0-beta.1.tgz#1e0c874257270d73d0cf08cc85931653a11fa59b"
+"@angular-devkit/core@7.2.0-beta.2":
+  version "7.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.2.0-beta.2.tgz#bce756c9cabff24ec3d0f0aefe0e462e2a70de2e"
   dependencies:
     ajv "6.5.3"
     chokidar "2.0.4"
@@ -106,11 +106,11 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@7.2.0-beta.1":
-  version "7.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.2.0-beta.1.tgz#195dd097b5a040b7aaa79dedf49dd77dd2e7fd04"
+"@angular-devkit/schematics@7.2.0-beta.2":
+  version "7.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.2.0-beta.2.tgz#ef332966e66ae92f7a6a1169df7e5010928ab9c8"
   dependencies:
-    "@angular-devkit/core" "7.2.0-beta.1"
+    "@angular-devkit/core" "7.2.0-beta.2"
     rxjs "6.3.3"
 
 "@angular/animations@7.2.0-beta.2":
@@ -119,15 +119,15 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cli@7.2.0-beta.1":
-  version "7.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-7.2.0-beta.1.tgz#49434460837ca0e1cbffcfaedcf68b07aa284d83"
+"@angular/cli@7.2.0-beta.2":
+  version "7.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-7.2.0-beta.2.tgz#50ca5e2bd3642be72f5e6cf686c81af0b2ed3cbb"
   dependencies:
-    "@angular-devkit/architect" "0.12.0-beta.1"
-    "@angular-devkit/core" "7.2.0-beta.1"
-    "@angular-devkit/schematics" "7.2.0-beta.1"
-    "@schematics/angular" "7.2.0-beta.1"
-    "@schematics/update" "0.12.0-beta.1"
+    "@angular-devkit/architect" "0.12.0-beta.2"
+    "@angular-devkit/core" "7.2.0-beta.2"
+    "@angular-devkit/schematics" "7.2.0-beta.2"
+    "@schematics/angular" "7.2.0-beta.2"
+    "@schematics/update" "0.12.0-beta.2"
     inquirer "6.2.0"
     opn "5.3.0"
     semver "5.5.1"
@@ -253,20 +253,20 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@schematics/angular@7.2.0-beta.1":
-  version "7.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.2.0-beta.1.tgz#4fca46a8ca6af53535611f6f752532138399df7a"
+"@schematics/angular@7.2.0-beta.2":
+  version "7.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.2.0-beta.2.tgz#e4015906cfc2cf40c9bd1eed3f7b8fcfc34133f4"
   dependencies:
-    "@angular-devkit/core" "7.2.0-beta.1"
-    "@angular-devkit/schematics" "7.2.0-beta.1"
+    "@angular-devkit/core" "7.2.0-beta.2"
+    "@angular-devkit/schematics" "7.2.0-beta.2"
     typescript "3.1.6"
 
-"@schematics/update@0.12.0-beta.1":
-  version "0.12.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.12.0-beta.1.tgz#e1332e0b8766be01719ddb8916f35da6def6a322"
+"@schematics/update@0.12.0-beta.2":
+  version "0.12.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.12.0-beta.2.tgz#dd9a4e9b2baa217db5071f6dd91f129c5952f4a6"
   dependencies:
-    "@angular-devkit/core" "7.2.0-beta.1"
-    "@angular-devkit/schematics" "7.2.0-beta.1"
+    "@angular-devkit/core" "7.2.0-beta.2"
+    "@angular-devkit/schematics" "7.2.0-beta.2"
     "@yarnpkg/lockfile" "1.1.0"
     ini "1.3.5"
     pacote "9.1.1"
