@@ -201,21 +201,21 @@
   dependencies:
     tslib "^1.9.0"
 
-"@ngrx/effects@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-7.0.0-beta.1.tgz#021876e5b16b90540c53528fd491d27eb3b3732a"
+"@ngrx/effects@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-7.0.0.tgz#57ea3a42ed970b748e78292e54fe02a768027b05"
 
-"@ngrx/router-store@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-7.0.0-beta.1.tgz#670498514480722dc96646176e7b707f268e6189"
+"@ngrx/router-store@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/router-store/-/router-store-7.0.0.tgz#a273fc3288a2b256b07e9014e7b87d6ebfa3641d"
 
-"@ngrx/store-devtools@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-7.0.0-beta.1.tgz#88246cb79a9954294a16cbdd82d0b68762870595"
+"@ngrx/store-devtools@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-7.0.0.tgz#8be35ad8b455019c9ac583c92ad8f0ec0d538c37"
 
-"@ngrx/store@7.0.0-beta.1":
-  version "7.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-7.0.0-beta.1.tgz#029d362a1355c1fc5badaf7f67a07fcaf3af8f38"
+"@ngrx/store@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-7.0.0.tgz#5472000197c2a388b09afceb2d062cb37b03d334"
 
 "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
