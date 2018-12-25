@@ -231,19 +231,20 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
-"@nrwl/nx@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.1.1.tgz#cc0483f66024fd4854d4a14a89da6064121afae6"
+"@nrwl/nx@7.2.0-beta.1":
+  version "7.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.2.0-beta.1.tgz#523a47bd1309aac869c861bc85e09763fc430c50"
 
-"@nrwl/schematics@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.1.1.tgz#1dc45fc123cb00b6ef3ca626b05881758311e937"
+"@nrwl/schematics@7.2.0-beta.1":
+  version "7.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.2.0-beta.1.tgz#975b680f289ff916a9b4e2a16f7e9aec6db5b06c"
   dependencies:
     "@types/yargs" "^11.0.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
     graphviz "0.0.8"
+    ignore "5.0.4"
     npm-run-all "4.1.5"
     opn "^5.3.0"
     semver "5.4.1"
@@ -3343,6 +3344,10 @@ ignore-walk@^3.0.1:
   resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.1.tgz#a83e62e7d272ac0e3b551aaa82831a19b69f82f8"
   dependencies:
     minimatch "^3.0.4"
+
+ignore@5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.0.4.tgz#33168af4a21e99b00c5d41cbadb6a6cb49903a45"
 
 ignore@^3.3.5:
   version "3.3.8"
