@@ -4739,9 +4739,9 @@ neo-async@^2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
 
-ng-packagr@4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/ng-packagr/-/ng-packagr-4.6.0.tgz#34b60a6244d47b315666c4fe09751cb1b4404990"
+ng-packagr@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/ng-packagr/-/ng-packagr-4.7.0.tgz#d04a93fd70e1895aa7a7ec3cf79c6ef6f7582327"
   dependencies:
     "@ngtools/json-schema" "^1.1.0"
     autoprefixer "^9.0.0"
