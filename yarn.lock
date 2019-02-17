@@ -239,15 +239,15 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
-"@nrwl/nx@7.5.2":
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.5.2.tgz#df8c8d68d2645b20ac9ce054938a0371a2c3f4ba"
-  integrity sha512-z0xWeHKNic/lEusP1pwgbv7bIB2UvT4Yc/GMAUH/wD/Y8E8L4lc3Y64cofwrvE3WJTY4ainsvYH/XkFqAOPxpA==
+"@nrwl/nx@7.6.0-beta.1":
+  version "7.6.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.6.0-beta.1.tgz#d7a694f8d4d1cceff8edfcefb028da7a29a7aa61"
+  integrity sha512-zOlc5ghkaD07VoZRTMebuzJBL7vGrcKUMP/Utr7lpRqs7RdvrMcNf5k9aASEKK7QDpPy3ZNPRDOgzbD/fMq0rg==
 
-"@nrwl/schematics@7.5.2":
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.5.2.tgz#b0be5a708e733e798dd1f7cec2341e5062703236"
-  integrity sha512-AqbNJ782UodR5y56yg4LCsIxXTORBE2wiGRI5yAD+QpAGL+vw8gdRzTNxgzoFsgowNkzW0Czfo1ezPtFCEvl+Q==
+"@nrwl/schematics@7.6.0-beta.1":
+  version "7.6.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.6.0-beta.1.tgz#a485e165db473b370c88ab72fbff82e9b30d2031"
+  integrity sha512-t1cZt21FXFAhXmAWLJpRboCH77Ea0PgxU564Qyr169VeeubxpPVugeFNmeCxIv+ihnhr/KlSI9+h34WhqempKg==
   dependencies:
     "@types/yargs" "^11.0.0"
     app-root-path "^2.0.1"
@@ -257,6 +257,7 @@
     ignore "5.0.4"
     npm-run-all "4.1.5"
     opn "^5.3.0"
+    rxjs "6.3.3"
     semver "5.4.1"
     strip-json-comments "2.0.1"
     tmp "0.0.33"
