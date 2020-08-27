@@ -349,17 +349,16 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
-"@nrwl/nx@7.6.0-beta.1":
-  version "7.6.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.6.0-beta.1.tgz#d7a694f8d4d1cceff8edfcefb028da7a29a7aa61"
-  integrity sha512-zOlc5ghkaD07VoZRTMebuzJBL7vGrcKUMP/Utr7lpRqs7RdvrMcNf5k9aASEKK7QDpPy3ZNPRDOgzbD/fMq0rg==
+"@nrwl/nx@7.8.7-beta.1":
+  version "7.8.7-beta.1"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx/-/nx-7.8.7-beta.1.tgz#b458a0728e1979d165283095bcfe3041b9c50ffe"
+  integrity sha512-04veK944wmpuGF9zBwHu/OV9WVarEkJt0sAmo8IRxbWLqgecDjFe2YoNUySjiFZpsMz9WBmBwiAb3p2qDcnMAA==
 
-"@nrwl/schematics@7.6.0-beta.1":
-  version "7.6.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.6.0-beta.1.tgz#a485e165db473b370c88ab72fbff82e9b30d2031"
-  integrity sha512-t1cZt21FXFAhXmAWLJpRboCH77Ea0PgxU564Qyr169VeeubxpPVugeFNmeCxIv+ihnhr/KlSI9+h34WhqempKg==
+"@nrwl/schematics@7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/schematics/-/schematics-7.8.7.tgz#e9d4c2c7c6ab11eece414ce79186b32248e484b0"
+  integrity sha512-ebxqnVKyAEG/i4f4669X0Q4GZhvekKmbz447UV2QwqsqqCRCwCCAYly4P5HX+tFJgneODeeY7qv/8D9F9+kfAg==
   dependencies:
-    "@types/yargs" "^11.0.0"
     app-root-path "^2.0.1"
     cosmiconfig "4.0.0"
     fs-extra "6.0.0"
@@ -367,6 +366,7 @@
     ignore "5.0.4"
     npm-run-all "4.1.5"
     opn "^5.3.0"
+    prettier "1.16.4"
     rxjs "6.3.3"
     semver "5.4.1"
     strip-json-comments "2.0.1"
@@ -443,11 +443,6 @@
     "@types/node" "*"
     "@types/source-list-map" "*"
     source-map "^0.6.1"
-
-"@types/yargs@^11.0.0":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-11.1.2.tgz#fd4b676846fe731a5de5c6d2e5ef6a377262fc30"
-  integrity sha512-zG61PAp2OcoIBjRV44wftJj6AJgzJrOc32LCYOBqk9bdgcdzK5DCJHV9QZJ60+Fu+fOn79g8Ks3Gixm4CfkZ+w==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
